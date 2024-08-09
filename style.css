@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    color: 242424;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow: break-word;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 900;
+    color: #004624;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    display: block;
+    background-color: #ffe9bf6c;
+}
+
+.container {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section.module p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+section.module:last-child {
+    margin-bottom: 0px;
+}
+
+section.module h2 {
+    font-size: 30px;
+}
+
+section.module.content {
+    padding: 40px 0px;
+    background-color: #fce0ab00;
+}
+
+section.module.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-site: cover;
+    -moz-background-site: cover;
+    -o-background-site: cover;
+}
+
+section.module.parallax:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -webkit-linear-gradient(to bottom, #00000000 0, #00000000 80%, #000 100%);
+
+    background: -moz-linear-gradient(to bottom, #00000000 0, #00000000 80%, #000 100%);
+
+    background: linear-gradient(to bottom, #00000000 0, #00000000 80%, #000 100%);
+}
+
+section.module.parallax-1 {
+    background-image: url(imagens/pizza-1000px.jpg);
+}
+
+section.module.parallax-2 {
+    background-image: url(imagens/pizza-1000px-2.jpg);
+}
+
+section.module.parallax-3 {
+    background-image: url(imagens/pizza-1000px-3.jpg);
+}
+
+section.module.parallax h1 {
+    color: white;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
+}
+
+section.module.parallax h2 {
+    color: white;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
+}
+
+section > h2 {
+    background-color: rgba(0, 0, 0, 0.274);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+section.module.parallax h3 {
+    color: white;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
+}
+
+section > h3 {
+    background-color: rgba(0, 0, 0, 0.274);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+span {
+    font-size: 25px; 
+}
+
+section.module.parallax h4 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    z-index: 50;
+    text-transform: uppercase;
+}
+
+section.rodape {
+    color: #004624;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section.rodape > a {
+    text-decoration: none;
+    color: #004624;
+}
+
+section.rodape > a:hover {
+    text-decoration: underline;
+}
+
+
+
+
